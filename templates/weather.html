@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Information</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #82c8ef;
+            font-size: 18px;
+        }
+        .weather-container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 0px;
+            background-color: #82c8ef;
+        }
+        h1 {
+            color: #1C2833;
+        }
+        p {
+            color: #0c0c0c;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: #0d06ea;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="weather-container">
+        <h1>Weather Information for {{ city }}</h1>
+        <p>Temperature: {{ temperature }}°C</p>
+        <p>Pressure: {{ pressure }} hPa</p>
+        <p>Humidity: {{ humidity }}%</p>
+        <p>Wind Speed: {{ wind_speed }} km/h</p>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
+</title>
+</head>
+<body>
+</body>
+</html>
+
+
